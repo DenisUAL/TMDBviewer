@@ -106,7 +106,7 @@ export default function MoviePage() {
             <ul style={{ listStyle: "none" }}>
               <li>
                 <img
-                  style={{ width: "20vw" }}
+                  style={{ width: "max(270px,20vw)" }}
                   src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
                 />
               </li>
@@ -166,8 +166,8 @@ export default function MoviePage() {
                       );
                   }
                 })}
-                <h4>Overview:</h4>
-                <p style={{width: "40vw"}}>{movie.overview}</p>
+              <h4>Overview:</h4>
+              <p style={{ width: "40vw" }}>{movie.overview}</p>
             </ul>
           </div>
         </div>

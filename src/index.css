@@ -22,7 +22,7 @@ code {
   height: auto;
 }
 
-.col{
+.col {
   display: flex;
   list-style: none;
 }
@@ -122,9 +122,12 @@ code {
   max-height: 420px;
 }
 
-.carouselContainer.card {
-  height: inherit;
-  width: 15vw;
+.carouselContainer .movie-title {
+  font-size: max(1vw, 16px);
+}
+
+.carouselContainer .genres-text {
+  font-size: max(0.9vw, 14px);
 }
 
 :hover.button {
